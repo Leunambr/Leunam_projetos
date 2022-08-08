@@ -1,0 +1,348 @@
+html {
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin:0;
+}
+
+header {
+    display: flex;
+    flex:1;
+}
+
+.menu {
+    width: 100%;
+    height: 112px;
+    background-color: black;
+    color:#FFF
+}
+.menu h3 {
+    width: 140px;
+    padding: 5px;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.menu h3:hover {
+    background-color:rgb(211, 0, 0);
+}
+
+.cabecalho {
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.cabecalho img {
+    width:200px;
+    height:auto;
+    padding:30px;
+}
+
+.Apresentation {
+    margin-bottom: 30px;
+}
+
+.linha1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/banner.jpg');
+    background-position:center;
+    background-size:cover;
+    height:690px;
+}
+
+
+#bottombanner {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/placabanner.jpg');
+    background-position:center;
+    background-size:cover;
+    height:600px;
+}
+
+
+.banner_Titulo {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+
+.banner_Titulo h1, h2 , h3 {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size:55px;
+}
+
+.banner_Titulo h2 {
+    font-size:30px;
+}
+
+.banner_Titulo h3 {
+    font-size:20px;
+}
+
+.banner_Titulo img {
+    flex:3;
+    margin-right: 0px;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: black;
+    color:#FFF;
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    width:260px;
+    height:50px;
+    margin-left: 200px;
+    border: 2px solid #FFF;
+}
+
+button:hover {
+    background-color:rgb(211, 0, 0);
+    border: 2px solid rgb(211, 0, 0) ;
+}
+
+a {
+    text-decoration: none;
+    color:#FFF;
+    padding: 20px;
+}
+
+.div-mid {
+    display: flex;
+    width:auto;
+    height:40px;
+    background-color: rgb(100, 99, 99);
+}
+
+.middletext {
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    height: 60px;
+    margin-top: 20px;
+    padding:20px;
+    text-decoration: underline;
+}
+
+.bottombannner-titulo {
+    background-color: rgba(100,100,100, 0.8);
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: column;
+    color:#FFF;
+}
+
+.bottombannner-titulo h1 {
+    margin-left: 70px;
+    font-size: 40px;
+    margin-bottom:0;
+}
+
+.bottombannner-titulo h2 {
+    margin-left: 70px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bottombannner- {
+    background-color: rgba(100,100,100, 0.8);
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottombannner-table {
+    border-collapse: collapse;
+    display: flex;
+    font-size: 20px;
+    color:#FFF;
+}
+
+
+td {
+    border-collapse: collapse;
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(211, 0, 0);
+}
+
+th {
+    padding:5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color:black;
+}
+
+
+.linha2 {
+    height:50px;
+    margin-top:30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+    line-height: 25px;
+    color:#FFF;
+    height: 67px;
+    background-color: black;
+}
+
+.rodape a{
+    text-decoration: underline;
+}
+
+
+@media (max-width:600px) {
+    .cabecalho {
+        background-color: black;
+        margin-bottom: 30px;
+    }
+    
+    .cabecalho img {
+        width:150px;
+        height:auto;
+        padding:30px;
+    }
+
+    .menu {
+        width:600px;
+        height:100px;
+    }
+
+    .menu h3 {
+        margin-left: 90px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .linha1 {
+        font-size:20px;
+    }
+
+    #banner {
+        width:600px;
+        height:400px;
+    }
+
+    .banner_Titulo {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .banner_Titulo h1 {
+        font-size:25px;
+        margin-left: 20px;
+    }
+
+    .banner_Titulo h2 {
+        font-size:20px;
+        margin-left: 20px;
+    }
+
+    .banner_Titulo h3 {
+        font-size:15px;
+        margin-left: 20px;
+    }
+
+    button {
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-top: 30px;
+        font-weight: bold;
+        width:220px;
+        height:50px;
+        margin-left: 20px;
+    }
+
+    #banner img {
+        width:300px;
+        height:230px;
+        margin-top: 65px;
+    }
+
+    .div-mid {
+        height:30px;
+    }
+
+    .middletext {
+        font-size: 18px;
+        height: 40px;
+        margin-top: 20px;
+        padding:15px;
+        text-decoration: underline;
+    }
+
+    #bottombanner {
+        height:350px;
+    }
+
+    .bottombannner-titulo h1 {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    
+    .bottombannner-titulo h2 {
+        margin-left: 20px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .bottombannner-table {
+        font-size: 13px;
+    } 
+
+    td {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    th{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .linha2 {
+        font-size:12px;
+        height:40px;
+        margin-top:20px;
+        margin-bottom: 10px;
+    }
+
+    .rodape {
+        font-size: 11px;
+        padding-top: 20px;
+        line-height: 20px;
+        height: 57px;
+    }
+}
